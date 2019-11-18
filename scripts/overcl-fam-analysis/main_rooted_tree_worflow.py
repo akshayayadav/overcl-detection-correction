@@ -1,0 +1,6 @@
+from family_workflow_for_dir_rooted_tree_workflow import FamilyWorflowTreeDir
+
+clade_species_representation_cutoff = 0.7
+
+family_worflow_orthofinder_legumes = FamilyWorflowTreeDir(clade_species_representation_cutoff)
+family_worflow_orthofinder_legumes.execute_workflow_for_family_tree_dir()
